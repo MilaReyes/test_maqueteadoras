@@ -13,3 +13,9 @@ $(document).ready(function() {
     scrollable: true
   });
 });
+  $(".foo, .bar").smoove({
+    skew : '20%',
+    // moveX is overridden to -200px for ".bar" object
+    moveX   : '100px',
+    moveY   : '100px',
+  });
