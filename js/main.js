@@ -13,9 +13,28 @@ $(document).ready(function() {
     scrollable: true
   });
 });
-  $(".foo, .bar").smoove({
+   $(".bar").smoove({
+    move: '20%',
+    // moveX is overridden to -200px for ".bar" object
+    
+  });
+  $(".foo").smoove({
     skew : '20%',
     // moveX is overridden to -200px for ".bar" object
-    moveX   : '100px',
-    moveY   : '100px',
+    moveX   : '200px',
+    moveY   : '200px',
   });
+    $(".foo2").smoove({
+   rotate3D: '20%',
+   moveX   : '200px',
+   moveY   : '200px',
+    // moveX is overridden to -200px for ".bar" object
+  });
+   $(document).ready(function(){
+    $('.zoom').hover(function() {
+        $(".zoom").addClass('transition');
+    
+    }, function() {
+        $(".zoom").removeClass('transition');
+    });
+});
