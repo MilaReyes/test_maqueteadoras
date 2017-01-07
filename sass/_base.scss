@@ -1,6 +1,8 @@
 .secondparallax{
 	background-image:url(../img/parallax-3.jpg);
-	background-size:100%;
+	background-size:cover;
+	max-width:100%;
+	height: auto;
 	background-repeat:no-repeat;
 
 
@@ -14,22 +16,25 @@
 
 .nuestra{
 	         font-weight:900;
-	         font-size:70px;
+	         font-size:4.5em;
 	         line-height:0.6;
 	         font-family:"Raleway";
 	     }
 .pasion{
-	            font-size:25px;
+	            font-size:2em;
 	        
 }
 .firstparallax{
 	background-image:url(../img/parallax-1.jpg);
-	background-size:100%;
+	background-size:cover;
+	max-width:100%;
+	height: auto;
 	background-repeat:no-repeat;
 }
 .logo{
-	margin:8%;
-	margin-bottom:3%;
+	max-width:100%;
+	height: auto;
+	padding-bottom:15%;
 }
 #te{
 	margin-left:10%;
@@ -42,8 +47,8 @@
 }
 .tetypes{
 	color:#FDA7D8;
-	font-size:40px;
-	font-weight:900;
+	font-size:2.5em;
+	font-weight:700;
 	font-family:"Raleway";
 }
 .picture1 .picture2 .picture3 .picture4{
@@ -53,7 +58,9 @@
 }
 .thirdparallax{
 	background-image:url(../img/parallax-2.jpg);
-	background-size:100%;
+	background-size:cover;
+	max-width:100%;
+	height: auto;
 	background-repeat:no-repeat;
 }
 .textopasion1{
@@ -72,7 +79,9 @@
 }
 .fourthparallax{
 	background-image:url(../img/parallax-4.jpg);
-	background-size:100%;
+	background-size:cover;
+	max-width:100%;
+	height: auto;
 	background-repeat:no-repeat;
 }
 footer{
@@ -93,7 +102,7 @@ footer{
 }
 .questions{
 	font-family:"Raleway";
-	font-size:25px;
+	font-size:2em;
 	font-weight:700;	
 }
 .answers{
@@ -122,4 +131,64 @@ footer{
 	margin-bottom:1%;
 	margin-top:1%;
 
+}
+.stripe1{
+	background-color:#51D43C;
+	width:100%;
+	padding:8%;
+}
+
+.lovete{
+	padding:8%;
+}
+.stripe1{
+	background-color:#51D43C;
+	width:100%;
+	padding:8%;
+}
+.stripe2{
+	background-color:#FF90BF;
+	width:100%;
+	padding:8%;
+}
+.stripe3{
+	background-color:#F6F1A4;
+	width:100%;
+	padding:8%;
+}
+.textcel{
+	font-family:"Raleway";
+	font-weight:700;
+	line-height:0.3;
+}
+.textcel1{
+	font-family:"Raleway";
+	font-size:1em;
+
+}
+.collage1{
+
+	max-width:100%;
+	height: auto;
+
+}
+.collage2{
+
+	max-width:100%;
+	height: auto;
+	
+	}
+.collage3{
+	
+	
+	max-width:100%;
+	height: auto;
+
+}
+.collage4{
+	
+	
+	max-width:100%;
+	height: auto;
+	
 }
