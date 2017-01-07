@@ -1,199 +1,183 @@
-.secondparallax{
-	background-image:url(../img/parallax-3.jpg);
+.parallax{
 	background-size:cover;
 	max-width:100%;
 	height: auto;
 	background-repeat:no-repeat;
-
-
 }
-.textopasion{
-	margin:8% 5% 10% 5%;
-	padding-left:20%;
-	color:white;
+
+.textos{
 	font-family:"Raleway";
+	color:white;
 }
 
-.nuestra{
-	         font-weight:900;
-	         font-size:4.5em;
-	         line-height:0.6;
-	         font-family:"Raleway";
-	     }
-.pasion{
-	            font-size:2em;
-	        
+.bigTextos{
+		font-family:"Raleway";
+	    color:white;
+	    font-weight:2em;
+}
+.box{
+	max-width:100%;
+	height:auto;
+}
+.stripes{
+	width:100%;
+	padding:8%;
 }
 .firstparallax{
+	@extend .parallax;
 	background-image:url(../img/parallax-1.jpg);
-	background-size:cover;
-	max-width:100%;
-	height: auto;
-	background-repeat:no-repeat;
 }
-.logo{
-	max-width:100%;
-	height: auto;
-	padding-bottom:15%;
-}
-#te{
-	margin-left:10%;
-	margin-top:10%;
-}
-
-.types{
-	margin:8% 0 8% 0%;
-
-}
-.tetypes{
-	color:#FDA7D8;
-	font-size:2.5em;
-	font-weight:700;
-	font-family:"Raleway";
-}
-.picture1 .picture2 .picture3 .picture4{
-	width:100%;
-	height:100%;
-
+.secondparallax{
+	@extend .parallax;
+	background-image:url(../img/parallax-3.jpg);
 }
 .thirdparallax{
+	@extend .parallax;
 	background-image:url(../img/parallax-2.jpg);
-	background-size:cover;
-	max-width:100%;
-	height: auto;
-	background-repeat:no-repeat;
 	margin-top:-2px;
 }
-.textopasion1{
-	margin:12% 5% 20% 5%;
-	padding-left:20%;
-	color:white;
-}
-.yellow{
-	background-color:#F6F1A4;
-}
-.green{
-	background-color:#51D43C;
-}
-.pink{
-	background-color:#FF90BF;
-}
 .fourthparallax{
+	@extend .parallax;
 	background-image:url(../img/parallax-4.jpg);
-	background-size:cover;
-	max-width:100%;
-	height: auto;
-	background-repeat:no-repeat;
-}
-footer{
-	background-color:#7A7171;
-
-}
-.contacto{
-	margin:5% 0 5% 0;
-	color:#CDCCCC;
-}
-.next{
-	font-size:60px;
-	color:white;
-}
-.prev{
-	font-size:60px;
-	color:white;
-}
-.questions{
-	font-family:"Raleway";
-	font-size:2em;
-	font-weight:700;	
-}
-.answers{
-	font-size:"Raleway";
-
-}
-.yellow {
-	padding:5%;
-}
-.pink{
-	padding:5%;
-}
-.green{
-	padding:5%;
-}
-.info{
-	padding:8%
 }
 .scroll{
 	height:35px;
-	color:white;
+	color:$color_titles;
 	margin-bottom:1%;
 }
 .scroll1{
 	height:10px;
 	margin-bottom:1%;
 	margin-top:1%;
+}
+.logo{
+	@extend .box;
+	padding-bottom:15%;
+}
+.textopasion{
+	@extend .textos;
+	margin:8% 5% 10% 5%;
+	padding-left:20%;
+}
+.nuestra{
+	@extend .textos;
+	font-weight:700;
+	font-size:4.5em;
+	line-height:0.6;
+}
+.pasion{
+	font-size:1.5em;
+}
+#te{
+	margin-left:10%;
+	margin-top:10%;
+}
+.types{
+	margin:8% 0 8% 0%;
+}
+.tetypes{
+	font-family:"Raleway";
+	color:$color_two;
+	font-size:2.5em;
+	
+}
+.textopasion1{
+	margin:12% 5% 20% 5%;
+	padding-left:20%;
+	color:$color_titles;
+}
+.yellow{
+	background-color:$color_three;
+	padding:5%;
+}
+.green{
+	background-color:$color_one;
+	padding:5%;
+}
+.pink{
+	background-color:$color_two;
+	padding:5%;
+}
+footer{
+	background-color:$footer;
+}
+.contacto{
+	margin:5% 0 5% 0;
+	color:#CDCCCC;
+}
+.next {
+	font-size:60px;
+	color:$color_titles;
+}
 
+.prev{
+	font-size:60px;
+	color:$color_titles;
+}
+.questions{
+	font-family:"Raleway";
+	font-size:2em;
+}
+.answers{
+	font-size:1em;
+}
+.info{
+	padding:8%
 }
 .stripe1{
-	background-color:#51D43C;
-	width:100%;
+	background-color:$color_one;
+	width:$width;
 	padding:8%;
 }
-
 .lovete{
-	padding:8%;
+	padding:$stripe;
+	font-family:$font;
 }
 .stripe1{
-	background-color:#51D43C;
-	width:100%;
-	padding:8%;
+	@extend .stripes;
+	background-color:$color_one;	
 }
 .stripe2{
-	background-color:#FF90BF;
-	width:100%;
-	padding:8%;
+	@extend .stripes;
+	background-color:$color_two;	
 }
 .stripe3{
-	background-color:#F6F1A4;
-	width:100%;
-	padding:8%;
+	@extend .stripes;
+	background-color:$color_three;
 }
 .textcel{
-	font-family:"Raleway";
-	font-weight:700;
+	@extend .bigTextos;
 	line-height:0.3;
 }
 .textcel1{
-	font-family:"Raleway";
+	font-family:$font;
 	font-size:1em;
-
 }
 .collage1{
-
 	width:105%;
-}
-.collage2{
-
-	width:110%;
-	
-	}
-.collage3{
-	width:110%;
-	margin-left:2px;
 }
 .collage4{
 	width:105%;
 }
-
-
-
-
-
+.collage2{
+	width:110%;	
+}
+.collage3{
+	width:110%;
+	margin-left:2px;
+}
+.finaltitle{
+	font-weight:$font-weight;
+}
 .transition {
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
 }
 .zoom {
 	-webkit-transition: all .4s ease-in-out;
 }
+
+
+

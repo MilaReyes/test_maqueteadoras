@@ -31,10 +31,10 @@ $(document).ready(function() {
     // moveX is overridden to -200px for ".bar" object
   });
    $(document).ready(function(){
-    $('.zoom').hover(function() {
-        $(".zoom").addClass('transition');
+    $('.pics').hover(function() {
+        $(".pics").addClass('transition');
     
     }, function() {
-        $(".zoom").removeClass('transition');
+        $(".pics").removeClass('transition');
     });
 });

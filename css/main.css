@@ -5806,39 +5806,66 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.secondparallax {
-  background-image: url(../img/parallax-3.jpg);
+.parallax, .firstparallax, .secondparallax, .thirdparallax, .fourthparallax {
   background-size: cover;
   max-width: 100%;
   height: auto;
   background-repeat: no-repeat; }
+
+.textos, .textopasion, .nuestra {
+  font-family: "Raleway";
+  color: white; }
+
+.bigTextos, .textcel {
+  font-family: "Raleway";
+  color: white;
+  font-weight: 2em; }
+
+.box, .logo {
+  max-width: 100%;
+  height: auto; }
+
+.stripes, .stripe1, .stripe2, .stripe3 {
+  width: 100%;
+  padding: 8%; }
+
+.firstparallax {
+  background-image: url(../img/parallax-1.jpg); }
+
+.secondparallax {
+  background-image: url(../img/parallax-3.jpg); }
+
+.thirdparallax {
+  background-image: url(../img/parallax-2.jpg);
+  margin-top: -2px; }
+
+.fourthparallax {
+  background-image: url(../img/parallax-4.jpg); }
+
+.scroll {
+  height: 35px;
+  color: #FFFFFF;
+  margin-bottom: 1%; }
+
+.scroll1 {
+  height: 10px;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+
+.logo {
+  padding-bottom: 15%; }
 
 .textopasion {
   margin: 8% 5% 10% 5%;
-  padding-left: 20%;
-  color: white;
-  font-family: "Raleway"; }
+  padding-left: 20%; }
 
 .nuestra {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 4.5em;
-  line-height: 0.6;
-  font-family: "Raleway"; }
+  line-height: 0.6; }
 
 .pasion {
-  font-size: 2em; }
-
-.firstparallax {
-  background-image: url(../img/parallax-1.jpg);
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat; }
-
-.logo {
-  max-width: 100%;
-  height: auto;
-  padding-bottom: 15%; }
+  font-size: 1.5em; }
 
 #te {
   margin-left: 10%;
@@ -5848,43 +5875,26 @@ button.close {
   margin: 8% 0 8% 0%; }
 
 .tetypes {
-  color: #FDA7D8;
-  font-size: 2.5em;
-  font-weight: 700;
-  font-family: "Raleway"; }
-
-.picture1 .picture2 .picture3 .picture4 {
-  width: 100%;
-  height: 100%; }
-
-.thirdparallax {
-  background-image: url(../img/parallax-2.jpg);
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  margin-top: -2px; }
+  font-family: "Raleway";
+  color: #FF90BF;
+  font-size: 2.5em; }
 
 .textopasion1 {
   margin: 12% 5% 20% 5%;
   padding-left: 20%;
-  color: white; }
+  color: #FFFFFF; }
 
 .yellow {
-  background-color: #F6F1A4; }
+  background-color: #F6F1A4;
+  padding: 5%; }
 
 .green {
-  background-color: #51D43C; }
+  background-color: #51D43C;
+  padding: 5%; }
 
 .pink {
-  background-color: #FF90BF; }
-
-.fourthparallax {
-  background-image: url(../img/parallax-4.jpg);
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat; }
+  background-color: #FF90BF;
+  padding: 5%; }
 
 footer {
   background-color: #7A7171; }
@@ -5895,41 +5905,21 @@ footer {
 
 .next {
   font-size: 60px;
-  color: white; }
+  color: #FFFFFF; }
 
 .prev {
   font-size: 60px;
-  color: white; }
+  color: #FFFFFF; }
 
 .questions {
   font-family: "Raleway";
-  font-size: 2em;
-  font-weight: 700; }
+  font-size: 2em; }
 
 .answers {
-  font-size: "Raleway"; }
-
-.yellow {
-  padding: 5%; }
-
-.pink {
-  padding: 5%; }
-
-.green {
-  padding: 5%; }
+  font-size: 1em; }
 
 .info {
   padding: 8%; }
-
-.scroll {
-  height: 35px;
-  color: white;
-  margin-bottom: 1%; }
-
-.scroll1 {
-  height: 10px;
-  margin-bottom: 1%;
-  margin-top: 1%; }
 
 .stripe1 {
   background-color: #51D43C;
@@ -5937,26 +5927,19 @@ footer {
   padding: 8%; }
 
 .lovete {
-  padding: 8%; }
+  padding: 8%;
+  font-family: "Raleway"; }
 
 .stripe1 {
-  background-color: #51D43C;
-  width: 100%;
-  padding: 8%; }
+  background-color: #51D43C; }
 
 .stripe2 {
-  background-color: #FF90BF;
-  width: 100%;
-  padding: 8%; }
+  background-color: #FF90BF; }
 
 .stripe3 {
-  background-color: #F6F1A4;
-  width: 100%;
-  padding: 8%; }
+  background-color: #F6F1A4; }
 
 .textcel {
-  font-family: "Raleway";
-  font-weight: 700;
   line-height: 0.3; }
 
 .textcel1 {
@@ -5966,6 +5949,9 @@ footer {
 .collage1 {
   width: 105%; }
 
+.collage4 {
+  width: 105%; }
+
 .collage2 {
   width: 110%; }
 
@@ -5973,8 +5959,12 @@ footer {
   width: 110%;
   margin-left: 2px; }
 
-.collage4 {
-  width: 105%; }
+hr {
+  width: 15%;
+  line-height: 2px solid black; }
+
+.finaltitle {
+  font-weight: 700; }
 
 .transition {
   -webkit-transform: scale(0.8);
